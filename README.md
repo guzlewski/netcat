@@ -18,7 +18,7 @@ make
   -4 - force ip4
   -6 - force ip6
 ```
-[DESTINATION] - can be ip4, ip6 or hostname (will be resolved via DNS)
+[DESTINATION] - can be ip4, ip6 or hostname (will be resolved via DNS)  
 [PORT] - number
 
 ## License
