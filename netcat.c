@@ -166,7 +166,7 @@ void Client(char *address, char *port, int *type, int *family)
     {
         if (write(STDOUT_FILENO, buffer, n) == -1)
         {
-            PrintError("send()");
+            PrintError("write()");
         }
     }
 
