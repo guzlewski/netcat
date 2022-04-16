@@ -9,17 +9,14 @@ make
 ```
 
 ## Usage
-
 ```
-./netcat.out [OPTIONS] [DESTINATION] [PORT]
+./netcat.out [OPTIONS] [ADDRESS] [PORT]
 
   -u - use udp instead of tcp
-  -l - server mode, DESTINATION can be blank, defalut ip will be used
+  -l - server mode, ADDRESS can be blank, defalut ip will be used
   -4 - force ip4
   -6 - force ip6
 ```
-[DESTINATION] - can be ip4, ip6 or hostname (will be resolved via DNS)  
-[PORT] - number
 
-## License
-Copyright (c) Michał Guźlewski. All rights reserved.
+`ADDRESS` - ip4, ip6 or hostname (will be resolved via DNS) to connect or bind in server mode  
+`PORT` - number of port to connect or listen
