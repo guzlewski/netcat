@@ -320,11 +320,10 @@ void Help(char *name)
 {
     printf("Usage:\n");
     printf("\t-u - use udp instead of tcp\n");
-    printf("\t-l - server mode, DESTINATION can be blank, defalut ip will be used\n");
+    printf("\t-l - server mode, ADDRESS can be blank, default ip will be used\n");
     printf("\t-4 - force ip4\n");
     printf("\t-6 - force ip6\n\n");
-    printf("\t%s [-l -u -4 -6] DESTINATION PORT\n", name);
-    printf("\tor\n");
-    printf("\t%s -l [-u -4 -6] PORT\n", name);
+    printf("\t%s [-u -4 -6] ADDRESS PORT\n", name);
+    printf("\t%s -l [-u -4 -6] [ADDRESS] PORT\n", name);
     exit(0);
 }
